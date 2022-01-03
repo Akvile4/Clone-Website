@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+html {
+    font-size: 13px;
+    margin: 0 !important;
+    border: none !important;
+}
+body {
+    margin: 0 auto;
+    padding: 80px;
+}
+#canvas {
+    padding: 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header {
+    padding-bottom: 24px;
+}
+.header-img {
+    display: block;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.header-img img {
+    max-width: 430px;
+    width: 100%;
+    height: auto;
+}
+.flex-nav {
+    width: auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(224,224,224,0);
+    border-top: 1px solid rgba(224,224,224,0);
+    margin: 0;
+    padding: 28px 0;
+}
+.flex-nav ul {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.5em;
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+}
+.flex-nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+.flex-nav ul li a {
+    padding: 0 0.8em;
+    color: #121212;
+    text-decoration: none;
+}
+.flex-nav ul li a:hover {
+    color: #a8a8a8;
+}
+#main-content {
+    max-width: 800px;
+    padding: 0 0 100px;
+    margin: 0 auto;
+}
+h1 {
+    display: block;
+    font-size: 20.25px;
+    margin: 0 0 28px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+#main-content img {
+    width: 100%;
+}
+.article {
+    max-width: 530px;
+    display: block;
+    margin: 0 auto;
+}
+footer ul {
+    list-style: none;
+    list-style-image: none;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    text-align: center;
+}
+footer ul li a {
+    padding: 0 0.8em;
+    color: #121212;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    color: #a8a8a8;
+}
+
+p {
+    margin: 12px 0 28px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+}
+
+/* .flex-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+
+
+
